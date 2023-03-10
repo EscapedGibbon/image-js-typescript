@@ -56,6 +56,7 @@ export function drawPoints(
   }
   const { color = getDefaultColor(newImage), origin = { row: 0, column: 0 } } =
     options;
+  console.log(color);
 
   checkProcessable(newImage, 'drawPoints', {
     bitDepth: [1, 8, 16],
